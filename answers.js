@@ -12,12 +12,30 @@ const logNumbers = () => {
     }
 }
 
-logNumbers()
+//logNumbers()
 
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
 
+const logEvenNumbers = () =>{
+
+    for(let i = 2; i <= 200; i += 2){
+        console.log(i)
+    }
+}
+
+const logEvenNumbersAlt = () =>{
+
+    for(let i = 0; i <= 200; i ++){
+        if(i % 2 == 0 && i !== 0) {
+            console.log(i)
+        }
+    }
+}
+
+// logEvenNumbers()
+// logEvenNumbersAlt()
 
 ////////////////////////////////
 // Fizz Buzz
